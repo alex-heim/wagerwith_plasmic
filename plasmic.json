@@ -1,0 +1,68 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "nY6QR5GydFawFrMvcvXNE1",
+      "projectApiToken": "CMRoWBKYlAEgdWop3qjymNqljJhIjID4SX68WBGMzmXgBPPuedWFLtu3ovfV2MUT2ezQ3VTZoVYkF55hA",
+      "projectName": "wagerwith",
+      "version": "latest",
+      "cssFilePath": "plasmic/wagerwith/plasmic_wagerwith.module.css",
+      "components": [
+        {
+          "id": "etGzMnSSO9e9",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "nY6QR5GydFawFrMvcvXNE1",
+          "renderModuleFilePath": "plasmic/wagerwith/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/wagerwith/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "WvpaAzvFCI8dZ",
+        "name": "Screen",
+        "projectId": "nY6QR5GydFawFrMvcvXNE1",
+        "contextFilePath": "plasmic/wagerwith/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+}
